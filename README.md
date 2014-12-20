@@ -22,10 +22,6 @@ You can run the SolrCloud example in a single container in the foreground:
 
 You can run SolrCloud in separate containers too. For example:
 
-pull the ZooKeeper image
-
-    docker pull jplock/zookeeper
-
 run ZooKeeper, and define a name so we can link to it
 
     docker run -name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 jplock/zookeeper
