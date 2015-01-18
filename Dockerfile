@@ -2,7 +2,7 @@
 FROM    dockerimages/docker-java-oracle:7
 MAINTAINER  Frank Lemanschik
 
-ENV SOLR_VERSION 4.10.2
+ENV SOLR_VERSION 4.10.3
 ENV SOLR solr-$SOLR_VERSION
 RUN export DEBIAN_FRONTEND=noninteractive \
  && apt-get update \
